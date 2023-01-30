@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    height: 100vh;
+    background-image: url('./IMAGENES_PROYECTO/todo.png');
+}
+
+.contenedor-padre-1{
+   align-self: center;
+   margin: auto;
+   width: 350px;
+   height: 200px;
+   border-radius: 20px 80px 20px 20px;
+   background-color: #1e2c69;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding-right: 100px;
+   padding-bottom: 10px;
+  
+    
+}
+
+.elemento-flex-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #0c122b;
+  font-size: 5px;
+  border-radius: 10px 10px 10px 10px;
+  
+}
+
+.elemento-flex-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #0c122b;
+  font-size: 5px;
+  border-radius: 10px 10px 10px 10px;
+  
+}
+
+.elemento-flex-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #0c122b;
+  font-size: 5px;
+  border-radius: 10px 10px 10px 10px;
+  
+}
+
+.elemento-flex-4{
+  display: flex;
+  order: -1;
+  flex-basis: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+
+}
+
+
+.doc{
+  transition: 0.1s;
+}
+
+.doc:hover{
+ transform: scale(1.2);
+}
+
+.folder {
+  transition: 0.1s;
+}
+
+.folder:hover {
+  transform: scale(1.2);
+}
+
+.upload {
+  transition: 0.1s;
+}
+
+.upload:hover {
+  transform: scale(1.2);
+}
+
+
+.contenedor-padre-2{
+  align-self: center;
+  margin: auto;
+  width: 650px;
+  height: 200px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #1e2c69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.elemento-flex-5{
+  display: flex;
+  padding-left: 70px;
+  padding-top: 10px;
+  order: -1;
+  flex-basis: 100%;
+}
+
+.text-storage {
+  font-size: 20px;
+  color: white;
+}
+
+.progress {
+  position: flex;
+  background-color: #0c122b;
+  width: 80%;
+  border-radius: 15px;
+  padding-right: 50px;
+
+  
+  
+}
+
+.skill {
+  position: flex;
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+  
+  
+}
+
+.progress:hover {
+  transition: 1.2s;
+  transform: scale(1.2);
+}
+
+.elemento-flex-6 {
+  padding-bottom: 10px;
+  order: 0;
+}
+
+.rest-storage {
+
+  font-size: 20px;
+  color: white;
+
+}
+
